@@ -7,7 +7,9 @@
   <persistence-unit name="sample-persistence-unit" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.demo.model.CD</class>
+    <class>com.demo.model.Book</class>
     <class>com.demo.model.Musician</class>
+    <class>com.demo.model.Item</class>
     <properties>
       <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
       <property name="javax.persistence.schema-generation.scripts.action" value="drop-and-create"/>
@@ -17,7 +19,7 @@
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <!--<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:module01-db"/>-->
       <!-- <property name="javax.persistence.jdbc.url" value="jdbc:h2:~/cdbookstoreDB"/> -->
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/nov2019?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/subaru?serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.password" value="password"/>
       <property name="eclipselink.logging.level" value="INFO"/>

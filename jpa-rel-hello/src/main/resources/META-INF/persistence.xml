@@ -17,7 +17,7 @@
       <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
       <!--<property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:module01-db"/>-->
       <!-- <property name="javax.persistence.jdbc.url" value="jdbc:h2:~/cdbookstoreDB"/> -->
-      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/subaru?serverTimezone=UTC"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/nov2019?serverTimezone=UTC"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
       <property name="javax.persistence.jdbc.password" value="password"/>
       <property name="eclipselink.logging.level" value="INFO"/>
